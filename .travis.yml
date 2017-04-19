@@ -14,9 +14,8 @@ branches:
   - build_on_trivasci
 cache:
   directories:
-  - "$HOME/.cache"
-  - "$HOME/.gradle"
   - "$HOME/.m2"
+  - "$HOME/.cache"
   - "$HOME/.sonar/cache"
 env:
   global:
