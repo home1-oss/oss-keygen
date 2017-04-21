@@ -59,7 +59,7 @@ public class Keygen implements CommandLineRunner {
 
   private String usage() {
     return "" + //
-        "Usage: java -jar yrd-lib-common-*.jar [OPTION]\n" + //
+        "Usage: java -jar oss-lib-common-*.jar [OPTION]\n" + //
         "\t-aes\n" + //
         "\t\tgenerate random AES CBC key\n" + //
         "\t-jwt\n" + //
