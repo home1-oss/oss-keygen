@@ -1,24 +1,23 @@
-package com.yirendai.oss.lib.common.crypto;
+package cn.home1.oss.lib.common.crypto;
 
-import static com.yirendai.oss.lib.common.CodecUtils.decodeBase64;
-import static com.yirendai.oss.lib.common.crypto.CryptoConstants.COLON;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.KEY_FORMAT_PKCS1;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.KEY_FORMAT_PKCS8;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.KEY_FORMAT_PKCS8_X509;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.KEY_FORMAT_X509;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.KEY_TYPE_PAIR;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.KEY_TYPE_PRIVATE;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.KEY_TYPE_PUBLIC;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.extractPrivateKey;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.extractPublicKey;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.keySize;
-import static com.yirendai.oss.lib.common.crypto.RsaKey.keySpec;
-import static com.yirendai.oss.lib.common.crypto.RsaKeyGenerator.pem;
+import static cn.home1.oss.lib.common.crypto.CryptoConstants.COLON;
+import static cn.home1.oss.lib.common.crypto.RsaKey.KEY_FORMAT_PKCS1;
+import static cn.home1.oss.lib.common.crypto.RsaKey.KEY_FORMAT_PKCS8;
+import static cn.home1.oss.lib.common.crypto.RsaKey.KEY_FORMAT_PKCS8_X509;
+import static cn.home1.oss.lib.common.crypto.RsaKey.KEY_FORMAT_X509;
+import static cn.home1.oss.lib.common.crypto.RsaKey.KEY_TYPE_PAIR;
+import static cn.home1.oss.lib.common.crypto.RsaKey.KEY_TYPE_PRIVATE;
+import static cn.home1.oss.lib.common.crypto.RsaKey.KEY_TYPE_PUBLIC;
+import static cn.home1.oss.lib.common.crypto.RsaKey.extractPrivateKey;
+import static cn.home1.oss.lib.common.crypto.RsaKey.extractPublicKey;
+import static cn.home1.oss.lib.common.crypto.RsaKey.keySize;
+import static cn.home1.oss.lib.common.crypto.RsaKey.keySpec;
+import static cn.home1.oss.lib.common.crypto.RsaKeyGenerator.pem;
 import static java.nio.charset.StandardCharsets.US_ASCII;
 import static lombok.AccessLevel.PRIVATE;
 import static org.apache.commons.io.FileUtils.writeStringToFile;
 
-import com.yirendai.oss.lib.common.CodecUtils;
+import cn.home1.oss.lib.common.CodecUtils;
 
 import lombok.NoArgsConstructor;
 import lombok.SneakyThrows;

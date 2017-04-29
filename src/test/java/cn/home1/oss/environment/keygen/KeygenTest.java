@@ -1,9 +1,10 @@
-package com.yirendai.oss.environment.keygen;
+package cn.home1.oss.environment.keygen;
 
-import static com.yirendai.oss.lib.common.crypto.CryptoConstants.COLON;
+import static cn.home1.oss.lib.common.crypto.CryptoConstants.COLON;
 import static org.junit.Assert.assertTrue;
 
-import com.yirendai.oss.lib.common.crypto.AesCbcKey;
+import cn.home1.environment.Keygen;
+import cn.home1.oss.lib.common.crypto.AesCbcKey;
 
 import lombok.extern.slf4j.Slf4j;
 
