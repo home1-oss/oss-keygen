@@ -1,9 +1,9 @@
-package com.yirendai.oss.environment.keygen;
+package cn.home1.environment;
 
-import com.yirendai.oss.lib.common.crypto.AesCbcKey;
-import com.yirendai.oss.lib.common.crypto.AesKeyGenerator;
-import com.yirendai.oss.lib.common.crypto.JwtKeyGenerator;
-import com.yirendai.oss.lib.common.crypto.RsaKeys;
+import cn.home1.oss.lib.common.crypto.AesCbcKey;
+import cn.home1.oss.lib.common.crypto.AesKeyGenerator;
+import cn.home1.oss.lib.common.crypto.JwtKeyGenerator;
+import cn.home1.oss.lib.common.crypto.RsaKeys;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.CommandLineRunner;
